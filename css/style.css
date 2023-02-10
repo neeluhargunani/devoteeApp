@@ -26,9 +26,6 @@
 
       
    *{box-sizing:border-box}
-
-
-
  body{
         background-image: url('../images/bg-img.jpg');
         width: 100vw;
@@ -46,7 +43,7 @@
 width: 100vw;
         height: 100vh;
     opacity: .7;
-        
+      
       }
 .header{
   display: inline-flex;
@@ -56,10 +53,6 @@ width: 100vw;
 
 }
 
-/*.container {
-    max-width: 1440px;
-    clear: both;
-}*/
 .logo-txt{
  font-size: .9em;
     letter-spacing: 3px;
@@ -87,7 +80,6 @@ font-size: 1em;
      .mrg_top{
      margin-top: 14%;
        margin-left: 11%;
-
      }
      .mrg-tp-rgt{
       margin-top: 22.5%;
@@ -106,8 +98,7 @@ font-size: 1em;
     font-family: 'Poppins';
     font-size: 3.5em;
     letter-spacing: 2px;
-    color: #fff;
-    
+    color: #fff; 
      }
 
      .sec-hd-scdry{ 
@@ -397,6 +388,7 @@ footer p{
  margin-right: 2%;
 
 }
+/* Responsive */
 @media only screen and (min-width: 821px) and (max-width: 1260px){
   body{
   
@@ -478,8 +470,6 @@ font-size: 14.5px;
   .forma2 {
 
     left: 3.3%;
-  
-  
     margin-top: 22%;
   }
   .forma3 {
